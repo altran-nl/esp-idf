@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 3.5)
+
+#add_subdirectory(components/lwip)
+#add_subdirectory(components/freertos)
+#add_subdirectory(components/bt)
+#add_subdirectory(components/esp32)
+#add_subdirectory(components/wpa_supplicant)
+#add_subdirectory(components/tcpip_adapter)
+#add_subdirectory(components/ulp)
