@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
+add_subdirectory(components/driver)
 #add_subdirectory(components/lwip)
 #add_subdirectory(components/freertos)
 #add_subdirectory(components/bt)
