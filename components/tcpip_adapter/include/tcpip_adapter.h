@@ -40,7 +40,7 @@
 #include "rom/queue.h"
 #include "esp_wifi_types.h"
 
-#define CONFIG_TCPIP_LWIP 1
+//#define CONFIG_TCPIP_LWIP 1
 #define CONFIG_DHCP_STA_LIST 1
 
 #if CONFIG_TCPIP_LWIP

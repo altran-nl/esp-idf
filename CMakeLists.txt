@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 3.5)
+
+add_subdirectory(components/nghttp)
+add_subdirectory(statemachine)
+add_subdirectory(backend_comm)
+add_subdirectory(ble_controller)
+add_subdirectory(http_server)
+add_subdirectory(wifi_controller)
+add_subdirectory(espresso)
