@@ -1,9 +1,8 @@
 cmake_minimum_required(VERSION 3.5)
-
-cmake_minimum_required(VERSION 3.5)
-file(GLOB DRIVER_SRC
-        "include/*.h"
+SET(CMAKE_C_COMPILER gcc)
+file(GLOB_RECURSE NGHTTP_SRC
+#        "*.h"
         "*.c"
         )
-
-add_library(driver ${DRIVER_SRC})
+include_directories(include port/include)
+add_library(nghttp ${NGHTTP_SRC})
