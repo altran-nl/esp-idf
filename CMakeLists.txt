@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.5)
 
 add_subdirectory(components/nghttp)
+add_subdirectory(components/json)
 #add_subdirectory(statemachine)
 #add_subdirectory(backend_comm)
 #add_subdirectory(ble_controller)
