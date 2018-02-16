@@ -28,6 +28,7 @@
 #include <assert.h>
 #include <stdio.h>
 #include <errno.h>
+#include <config.h>
 
 #include "nghttp2_helper.h"
 #include "nghttp2_net.h"

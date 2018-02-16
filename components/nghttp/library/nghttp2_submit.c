@@ -26,6 +26,7 @@
 
 #include <string.h>
 #include <assert.h>
+#include <config.h>
 
 #include "nghttp2_session.h"
 #include "nghttp2_frame.h"
